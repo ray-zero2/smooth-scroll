@@ -11,7 +11,7 @@ img {
 
 .header .header__inner {
   width: 100%;
-  max-width: 840px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 12px;
   display: flex;
@@ -117,6 +117,10 @@ img {
   z-index: 2;
 }
 
+.kv .kv__image > img {
+  object-fit: cover;
+}
+
 .section {
   width: 100%;
   min-height: 100vh;
@@ -130,7 +134,7 @@ img {
 
 .section .section__contents-wrapper {
   width: 100%;
-  max-width: 840px;
+  max-width: 970px;
   display: flex;
   justify-content: space-between;
   margin: 50px auto 0;
@@ -161,7 +165,7 @@ img {
   font-size: 16px;
   margin: 60px auto 0;
   width: 100%;
-  max-width: 672px;
+  max-width: 776px;
 }
 
 .footer {
@@ -171,7 +175,7 @@ img {
 
 .footer .footer__inner {
   width: 100%;
-  max-width: 840px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 10px;
   display: flex;

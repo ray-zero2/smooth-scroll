@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 $spSize: 520px;
-$maxWidth: 840px;
+$maxWidth: 970px;
 
 img {
   width: 100%;
@@ -118,6 +118,10 @@ img {
       height: 100%;
       background-color: rgba(0, 0, 0, 0.6);
       z-index: 2;
+    }
+
+    & > img {
+      object-fit: cover;
     }
   }
 }
